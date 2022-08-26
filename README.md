@@ -12,7 +12,7 @@ The things you need before installing the software.
 
 Your environment must meet the following requirements
 1. PHP >= v8
-2. a Database (MariaDB of MySQL reccommended)
+2. a Database (MariaDB or MySQL reccommended)
 
 ### Installation
 
