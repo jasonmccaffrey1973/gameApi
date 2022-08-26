@@ -18,8 +18,8 @@ Your environment must meet the following requirements
 
 1. clone Repo
 2. change database credentials in .env file
-2a. if you are using Windows and mySQL or MariaDB: 
+3. if you are using Windows and mySQL or MariaDB: 
    a. in database.php change the engine under mysql from null to 'InnoDB' 
-2. run php artisan:migrate in command prompt / terminal in the root directory of the project
-3a. configure apache documentroot for the vhost / host to point to the /public directory --- WebServer
-3b. run php artisan:serve in the root directory of the project --- Local
+4. run php artisan:migrate in command prompt / terminal in the root directory of the project
+5. configure apache documentroot for the vhost / host to point to the /public directory --- WebServer
+6. run php artisan:serve in the root directory of the project --- Local
