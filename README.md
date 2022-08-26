@@ -21,7 +21,5 @@ Your environment must meet the following requirements
 2a. if you are using Windows and mySQL or MariaDB: 
    a. in database.php change the engine under mysql from null to 'InnoDB' 
 2. run php artisan:migrate in command prompt / terminal in the root directory of the project
---- WebServer
-3. configure apache documentroot for the vhost / host to point to the /public directory
---- Local
-3. run php artisan:serve in the root directory of the project
+3a. configure apache documentroot for the vhost / host to point to the /public directory --- WebServer
+3b. run php artisan:serve in the root directory of the project --- Local
