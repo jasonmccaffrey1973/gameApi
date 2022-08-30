@@ -33,7 +33,6 @@ return new class extends Migration
                 $table->unsignedInteger('ManaPoints');
                 $table->unsignedInteger('Experience');
                 $table->timestamps();
-
                 $table->foreign('UserId')->references('id')->on('users');
             });
         }
